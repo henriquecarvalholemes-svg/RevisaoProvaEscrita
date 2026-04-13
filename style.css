@@ -59,6 +59,17 @@
     padding: 10px;
 }
 
+
+.secao p {
+    margin-bottom: 10px;
+}
+
+.formulario {
+    margin-bottom: 10px;
+}
+
+
+
 .rodape {
     background-color: rgb(red, green, blue);
     color: rgb(red, green, blue);
