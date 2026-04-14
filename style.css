@@ -1,43 +1,38 @@
 * {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 .grupo {
     display: flex;
     flex-direction: column;
-
 }
 
 .cabecalho {
-    background-color: rgb(136, 0, 0);
-    color: black;
+    background-color: #12ddaa;
+    color: #fff;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
 .menu a {
-    color: black;
+    color: #fff;
     text-decoration: none;
     margin-left: 15px;
 }
 
-
 .menu a:hover {
-    color: rgb(119, 16, 16);
+    color: red;
 }
-
 
 .conteudo {
     display: flex;
 }
 
 .navegacao {
-    background-color: rgb(81, 56, 190);
-    color: rgb(3, 3, 0);
+    background-color: #ad5566;
     display: inline-block;
     width: 30%;
     padding: 10px;
@@ -53,12 +48,11 @@
 }
 
 .secao {
-    background-color: rgb(43, 139, 30);
+    background-color: #32a97c;
     display: inline-block;
     width: 70%;
     padding: 10px;
 }
-
 
 .secao p {
     margin-bottom: 10px;
@@ -68,11 +62,8 @@
     margin-bottom: 10px;
 }
 
-
-
 .rodape {
-    background-color: rgb(red, green, blue);
-    color: rgb(red, green, blue);
+    background-color: #00ddff;
     height: 70px;
     padding: 0 20px;
     display: flex;
@@ -90,10 +81,14 @@
     width: 20px;
     height: 20px;
 }
-
 .redes a {
     display: flex;
     align-items: center;
     gap: 5px;
     text-decoration: none;
+}
+
+.redes a:hover {
+    color: #fff;
+    opacity: 0.7;
 }
