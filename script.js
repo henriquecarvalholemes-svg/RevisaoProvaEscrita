@@ -2,7 +2,7 @@ function alterarNome() {
     let trocarNome = document.getElementById('inputNome').value;
 
     if (trocarNome === "") {
-        alert('digite um nome')
+        alert('Digite um Nome')
     } else {
         document.getElementById('nomeUsuario').innerHTML = trocarNome;
     }
